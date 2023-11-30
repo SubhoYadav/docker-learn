@@ -1,0 +1,2 @@
+Installing a specific version of an npm package
+npm i nodejs-base64@1.0.3

@@ -1,0 +1,11 @@
+version: "3"
+services:
+  node-app:
+    build:
+      context: .
+      args:
+        NODE_ENV: production
+    environment:
+      - NODE_ENV=production
+    command: node server.js
+# The command to start the server is itself in the file

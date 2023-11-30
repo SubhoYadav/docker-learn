@@ -1,0 +1,15 @@
+version: "3"
+services: 
+  my-node-app:
+    build: .
+    ports:
+      - "6060:9090"
+    volumes:
+      - ./:/app
+      # bind-mount volume
+      - /app/node_modules
+    environment: 
+      - PORT=9090
+    # env_file:
+    #   - ./.env
+    command: npm run dev

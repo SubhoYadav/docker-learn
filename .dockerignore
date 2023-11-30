@@ -1,0 +1,6 @@
+Dockerfile
+docker-commands.md
+node_modules
+.git
+.dockerignore
+.gitignore
