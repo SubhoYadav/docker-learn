@@ -172,3 +172,12 @@ If we look closely, we can see that the nodemon dependency is getting installed 
 https://docs.docker.com/engine/install/ubuntu/
 
 docker prune -af
+
+# Restarting all the docker containers at once 
+docker restart $(docker ps -q)
+
+There is an officisl image called scratch which is like the root image that gives you an empty stage to build your stuff on
+# COMMANDS FROM AWS CLOUD BOOTCAMP PROJECT
+
+docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' ./backend_flask
+
