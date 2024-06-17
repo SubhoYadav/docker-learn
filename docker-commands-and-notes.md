@@ -171,6 +171,9 @@ If we look closely, we can see that the nodemon dependency is getting installed 
 
 https://docs.docker.com/engine/install/ubuntu/
 
+# Run docker without sudo
+https://docs.docker.com/engine/install/linux-postinstall/
+
 docker prune -af
 
 # Restarting all the docker containers at once 
